@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+nav,.center-nav ul,.logo,.social-media,.center-nav ul li,.container-left,.hometown,.btn,.container,.footer ul,.page,.footer,.body-image-about,.download,.contact,.head-logo-image,.family,.picture-member{
+    display: flex;
+}
+.logo,.social-media,.center-nav ul li,.container-left,.page,.footer,.head-logo-image,.family,.picture-member{
+    justify-content: center;
+    align-items: center;
+}
+.logo a{
+    color: green;
+    font-size: 1.4rem;
+}
+.logo span{
+    color: orangered;
+    font-size: 1.8rem;
+}
+nav{
+    justify-content: space-evenly;
+    background: #eee;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.social-media i {
+    margin-left: 1.5rem;
+}
+.fa-facebook-square,.fa-twitter-square,.fa-skype,.fa-envelope,.fa-arrow-circle-down{
+    font-size: 1.6rem;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+.fa-facebook-square,.fa-twitter-square,.fa-skype,.fa-envelope{
+    color: blue;
+}
+
+
+.center-nav ul li {
+    
+    list-style: none;
+    padding: 10px;
+    border-radius: 60px;
+    width: 5rem;
+}
+
+.center-nav ul li,.page li,.footer ul li{
+    list-style: none;
+}
+
+.center-nav ul li a,.page li a{
+    color: black;
+}
+.center-nav ul li a:hover,.btn button,.fa-arrow-circle-down,.contain-download button,.contain-download button:hover,input[type="submit"]{
+    color: #fff;
+}
+.center-nav ul li:hover{
+    background: orange;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.container-left{
+    background-image: linear-gradient(rgb(10, 9, 9),rgba(7, 7, 7, 0.5)) , url(../image/picture-1.jpg);
+    width: 100%;
+    height: 85vh;
+}
+
+
+.container-left,.home,.football,.cat-dog,.family{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container-left h1,.container-left p{
+    margin: 0;
+    font-size: 7em;
+    color: gold;
+}
+
+.text-h1 h1,h3,.logo-image h1,.logo-image p,.family-member h1,.family-member p,.son h1,.father h1,.mother h1,.brother h1,.head h1,.head p,.head-text,.form h1,.form p{
+    text-align: center;
+}
+.hometown{
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+
+.text-hometown p{
+    font-size: 1.5em;
+}
+
+.image img{
+    width: 80%;
+}
+.btn{
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.btn button{
+    padding: 1rem;
+    background: green;
+    border: none;
+    cursor: pointer;
+}
+#btn-left{
+    background: orange;
+}
+button:hover{
+    color: black;
+}
+button:hover,.download,.contact-left{
+    background: #eee;
+}
+.home{
+    background-image: url(../image/picture-3.jpg);
+    height: 50vh;
+    margin-top: 4rem;
+}
+.page li{
+    margin-left: 2rem;
+    border-bottom: 2px solid blue;
+    padding: 15px;
+}
+
+.footer ul li{
+    margin: 0px 15px ;
+}
+.footer{
+    margin-top: 2rem;
+}
+.footer p{
+    margin-left: 5rem;
+}
+footer{
+    margin-top: 10rem;
+}
+.image-about{
+    position: absolute;
+    left: 65%;
+}
+.image-about img{
+    border-radius: 60rem;
+    width: 30vw;
+}
+
+.text-name h1{
+    font-size: 10rem;
+    margin: 0;
+    margin-left: 2rem;
+}
+.text-name p{
+    font-size: xx-large;
+    margin: 0;
+    margin-left: 2rem;
+}
+.text-name{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(183, 187, 250));
+}
+
+
+.head{
+    margin: 10px;
+    background-image: linear-gradient(rgb(255, 255, 255),orange);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.download{
+    margin-top: 5rem;
+    padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.download-profile img,.logo-image img{
+    width: 15vw;
+    border-radius: 10rem;
+    margin-left: 2rem;
+}
+.mother img,.father img,.brother img{
+    width: 15vw;
+    border-radius: 60rem;
+}
+.son img{
+    width: 17vw;
+    border-radius: 15rem;
+
+}
+.download-profile{
+    margin-right: 2rem;
+}
+
+.contain-download button{
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.contain-download button,input[type="submit"]{
+    background: green;
+}
+.contain-download button:hover,input[type="submit"]:hover{
+    background: rgb(78, 153, 78)
+}
+
+.football{
+    background-image: url(../image/picture-6.jpg);
+}
+.family{
+    background-image: url(../image/picture-8.jpg);
+    font-size: xx-large;
+    color: yellow;
+}
+
+.football,.cat-dog,.family{
+    height: 70vh;
+}
+.cat-dog{
+    background-image: url(../image/picture-7.jpg);
+}
+.map{
+    height: 40vh;
+}
+
+.contact{
+    width: 90%;
+    justify-content: space-around;
+}
+.contact-left{
+    margin: 15px;
+    padding: 3rem;
+    overflow: scroll;
+    height: 70vh;
+}
+
+form input,form{
+    width: 100%;
+    box-sizing: border-box;
+}
+form input{
+    height: 5vh;
+    margin: 10px;
+}
+
+input[type="text"],input[type="email"],input[type="password"],input[type="submit"]{
+    border-radius: 5px;
+    border: none;
+}
+input[type="submit"]{
+    cursor: pointer;
+}
+form{
+    background: rgb(187, 1, 63);
+    padding: 50px;
+    padding-right: 70px;
+    border-radius: 15px;
+}
+
+.picture-member .son{
+}
+
+
+@media(max-width:1024px){
+    nav .logo{
+        display: none;
+    }
+    nav .social-media,.hometown,.body-image-about,.contact{
+        flex-wrap: wrap;
+    }
+    .text-head h1,.text-head p{
+        font-size: 5rem;
+    }
+    .text-name h1{
+        font-size: 4rem;
+    }
+    .contact{
+        width: 100%;
+    }
+    .contact-left{
+        overflow: hidden;
+        height: 100%;
+        
+    }
+    .contact-right{
+        width: 50%;
+    }
+    
+}
+
+@media(max-width:650px){
+    nav{
+        flex-wrap: wrap;
+    }
+    .contact-right{
+        width: 70%;
+    }
+    .father h1,.mother h1,.brother h1,.son h1{
+        font-size: 1.1rem;
+    }
+}
+
+@media(max-width:360px){
+    .center-nav ul{
+        flex-wrap: wrap;
+
+    }
+    .contact-right{
+        width:100%;
+    }
+    .father h1,.mother h1,.brother h1,.son h1{
+        font-size: small;
+    }
+    .text-name h1{
+        font-size: x-large;
+    }
+}
+@media(max-width:375px){
+    nav .center-nav ul{
+        flex-wrap: wrap;
+    }
+    .contact-right{
+        width: 100%;
+    }
+}
+
